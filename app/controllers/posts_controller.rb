@@ -23,15 +23,6 @@ class PostsController < ApplicationController
     end
   end
 
-  def like
-    @like = @post.likes.new(user: current_user)
-    if @like.save
-      redirect_to user_post_path(@user, @post), notice: 'Post liked successfully.'
-    else
-      redirect_to user_post_path(@user, @post), alert: 'Failed to like the post.'
-    end
-  end
-
   private
 
   def find_user

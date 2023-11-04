@@ -9,7 +9,7 @@
   </div>
   <p><%= @post.text %></p>
   <div class='custom-like-section'>
-    <%= button_to "Like", like_user_post_path(@user, @post), method: :post, remote: true %>
+    <%= button_to 'Like', likes_path(post_id: @post.id), method: :post %>
 </div>
 
 <div class="custom-post-container">
