@@ -22,6 +22,10 @@ RSpec.describe 'Post index ' do
     expect(page).to have_content('John Doe')
   end
 
+  it 'can see the number of comments on a post' do
+    expect(page).to have_content('Comments: 5')
+  end
+
   it 'can see the number of posts user has written' do
     expect(page).to have_content('Number of posts: 3')
   end

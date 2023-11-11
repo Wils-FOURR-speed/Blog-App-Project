@@ -20,6 +20,10 @@ RSpec.describe 'User index', type: :feature do
     expect(page).to have_content('John Doe')
     expect(current_path).to eq(user_path(@user1))
   end
+  it 'displays the username of all other users' do
+    expect(page).to have_content('John Doe')
+    expect(page).to have_content('Jane Smith')
+  end
   it 'should return the correct CSS' do
     expect(page).to have_css("img[src*='https://example.com/john-doe.jpg']")
     expect(page).to have_css("img[src*='https://example.com/jane-smith.jpg']")
