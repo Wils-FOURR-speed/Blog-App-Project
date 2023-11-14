@@ -100,7 +100,10 @@ rspec spec --format documentation
 - Twitter: [@twitterhandle](https://twitter.com/WFourrspeed)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/nji-wilsan-ndenge-47b7a826a/)
 
-
+👤 **Lawmsangi Varte**
+- GitHub: [@githubhandle](https://github.com/Lawmsangi)
+- Twitter: [@twitterhandle](https://twitter.com/mamy_22_zayn)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lawmsangi-varte-baa429244/)
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
