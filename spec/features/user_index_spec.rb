@@ -1,4 +1,3 @@
-
 require 'rails_helper'
 RSpec.describe 'User index', type: :feature do
   before :each do
