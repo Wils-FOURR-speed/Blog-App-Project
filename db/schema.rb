@@ -33,7 +33,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_25_223059) do
     t.index ["user_id"], name: "index_likes_on_user_id"
   end
 
-  create_table "posts", force: :cascade do |t|
+  create_table "Posts", force: :cascade do |t|
     t.string "title"
     t.text "text"
     t.integer "comment_counter", default: 0
